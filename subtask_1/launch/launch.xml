@@ -1,0 +1,6 @@
+<launch>
+
+	<node pkg = "subtask_1" name="msg" type="speaker" output="screen"/>
+	<node pkg = "subtask_1" name= "msg1" type="subscriber" output="screen"/>
+	
+</launch>
