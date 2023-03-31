@@ -1,5 +1,12 @@
 # Abhiyaan_CE21B024
 
+# Outputs
+
+https://drive.google.com/drive/folders/10dv1gb62qq8xgqrp-1gf5T-JX_g1Mhbs?usp=share_link
+
+Resources:
+
+This contains all the outputs for the tasks.
 
 ## Name:
 Ashmitha Jaysi Sivakumar
@@ -187,6 +194,12 @@ https://www.researchgate.net/publication/342987130_Difficulties_of_Traffic_Sign_
 
 
 ## Task 6 - "Hey! I'm walking here!"
+
+
+Special Note:
+
+Task 6 has a log file containing the position, velocity and acceleration of the moving object.
+
 ### Single Pedestrian:
 
 #### References:
