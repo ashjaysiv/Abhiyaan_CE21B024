@@ -1,8 +1,6 @@
 # Abhiyaan_CE21B024
 
 
-Task 1,2 completely done
-# ABHIYAAN
 ## Name:
 Ashmitha Jaysi Sivakumar
 ## Roll no:
