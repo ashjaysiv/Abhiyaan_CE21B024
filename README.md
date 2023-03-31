@@ -211,11 +211,17 @@ https://www.youtube.com/watch?v=Ltqt24SQQoI
 ## Task 7
 
 git clone {current repo}
+
 cd {current repo}
+
 git submodule add {submodule repo}
+
 git add .
+
 git commit -m “Add submodule”
+
 git push origin  
+
 
 
 
