@@ -17,7 +17,7 @@ CE21B024
 * I know I love to code but just coding with no purpose is not fun. I would like to see my code come to life. Not as a meow of a cat, but as a roar of a lion. Hence I see Ahiyan as a means to give my code its place in the world.
 * Getting into IITM, it is necessary to utilize all the opportunities it gives. Otherwise what's the difference between a normal college and an IIT. Hence being in a competitive team is one of those things in my bucket list for college life.
 * I want to work on something Day and Night. I want to feel that adrenaline. I want to get that immense satisfaction after a day's work.
-// From Image
+
 ## Relevant Courses:
 ### In Institute:
 * CS1100: Introduction to Programming 1
@@ -27,7 +27,7 @@ Supervised Machine Learning: Advanced Learning Algorithms-Andrew Ng
 Supervised MAchine Learning: Regression and Classification- Andrew Ng
 edX Verified Certificate for CS50’s Introduction to Computer Science- edX
 
-// From Linkedin
+
 
 ## Task 1 - Get Set …
 * Installed Ubuntu 20.04 on a virtual machine
@@ -166,7 +166,7 @@ https://arxiv.org/ftp/arxiv/papers/2003/2003.03256.pdf
 
 Yolo?
 
-// explain
+
 
 ### Other Datasets:
 http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html
@@ -196,7 +196,7 @@ Calculate the slope ( y2 - y1 / x2 - x1)
 
 * KalmanFilter: used to predict the next path of an moving objecthttps://arxiv.org/ftp/arxiv/papers/1204/1204.0375.pdf#:~:text=A%20Kalman%20Filtering%20is%20carried,in%20wireless%20networks%20is%20given.
 
-//explain
+
 
 * For each frame, the ball is masked by giving the range of pixel values for the color of the ball. (Here blue)
 * We then use cv2. HoughCircles  (on the processed frames) to identify the center and radius of the circle. 
