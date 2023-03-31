@@ -163,7 +163,7 @@ PB: embed multi-scale context into tokens
 Structure: 
 Image → PRM (Pyramid Reduction Module) → MHSA (Multi-Head Attention) → PCM (Parallel Convolutional Modules)
 
-![alt image](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.catalyzex.com%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fai2-s2-public.s3.amazonaws.com%252Ffigures%252F2017-08-08%252F67e0ee85435ef3841bf3e772b05f0fea5e505439%252F2-Figure1-1.png%26w%3D640%26q%3D75&tbnid=ix3OlpYVtedneM&vet=12ahUKEwj81tKi1ob-AhViS3wKHXc1DiUQMygRegQIARBp..i&imgrefurl=https%3A%2F%2Fwww.catalyzex.com%2Fsearch%3Fquery%3DSelf%26page%3D398&docid=MG715WxRdcXdHM&w=640&h=254&itg=1&q=pyramid%20transformer%20for%20traffic%20sign&ved=2ahUKEwj81tKi1ob-AhViS3wKHXc1DiUQMygRegQIARBp)
+[alt image](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.catalyzex.com%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fai2-s2-public.s3.amazonaws.com%252Ffigures%252F2017-08-08%252F67e0ee85435ef3841bf3e772b05f0fea5e505439%252F2-Figure1-1.png%26w%3D640%26q%3D75&tbnid=ix3OlpYVtedneM&vet=12ahUKEwj81tKi1ob-AhViS3wKHXc1DiUQMygRegQIARBp..i&imgrefurl=https%3A%2F%2Fwww.catalyzex.com%2Fsearch%3Fquery%3DSelf%26page%3D398&docid=MG715WxRdcXdHM&w=640&h=254&itg=1&q=pyramid%20transformer%20for%20traffic%20sign&ved=2ahUKEwj81tKi1ob-AhViS3wKHXc1DiUQMygRegQIARBp)
 
 NB: inject convolutional bias, divided into two parallel branches, which together model locality and long-range dependency, 
 * Input:  class token from the third PB is concatenated with F from the third PB and then combined with positional embeddings 
