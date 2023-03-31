@@ -110,15 +110,22 @@ Goal of the task is to make a model which can accurately detect traffic signs. H
 
 
 Model: VGG19
+
 Dataset: https://www.kaggle.com/datasets/andrewmvd/road-sign-detection(very small dataset)
+
 Accuracy on Train: 90%
 
+
 Model: VGG19
+
 Dataset: , https://www.kaggle.com/datasets/andrewmvd/road-sign-detection, 
+
 Accuracy on Train: 50.62%
 
 Model: Resnet152
+
 Dataset: https://www.kaggle.com/datasets/andrewmvd/road-sign-detection
+
 Accuracy on Train: 48.21% (on 5 epochs can be further increased if colab runtime wasnt exceeded)
 
 
