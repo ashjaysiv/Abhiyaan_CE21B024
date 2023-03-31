@@ -210,17 +210,17 @@ https://www.youtube.com/watch?v=Ltqt24SQQoI
 ### Multiple Pedestrian:
 ## Task 7
 
-git clone {current repo}
+* git clone {current repo}
 
-cd {current repo}
+* cd {current repo}
 
-git submodule add {submodule repo}
+* git submodule add {submodule repo}
 
-git add .
+* git add .
 
-git commit -m “Add submodule”
+* git commit -m “Add submodule”
 
-git push origin  
+* git push origin  
 
 
 
