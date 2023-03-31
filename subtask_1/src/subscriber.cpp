@@ -18,10 +18,10 @@ int main(int argc, char **argv)
 	//create node variable
 	ros::NodeHandle n;
 	
-	//create subscriber node - /chatter
+	//create subscriber node to subscribe to topic /chatter
 	ros::Subscriber sub = n.subscribe("chatter", 1, chatterCallback);
 	
-	// create a publisher node - /absolute_truth
+	// create a publisher node to publish to topic /absolute_truth
 	ros::Publisher chatter_pub = n.advertise<std_msgs::String>("absolute_truth", 1);
 
 	ros::Rate loop_rate(10);	
