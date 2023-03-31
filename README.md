@@ -139,7 +139,7 @@ This paper aims to tackle the problems caused by a small dataset and the unbalan
 
 The proposed transformer inherits an intrinsic scale invariance inductive bias and is able to learn local feature representation for objects at various scales. Thus, enhancing the network robustness against the size discrepancy of traffic signs.
 
-** It  achieves 77.8% mAP on GTSDB **
+**It  achieves 77.8% mAP on GTSDB**
 #### What is a Vision Transformer? How does it compare itself with CNN?
 * utilizes a purely attention-based model
 * Basic components: multi-head self attention, and feed forward neural network with normalization and residual shortcuts.
