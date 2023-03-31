@@ -102,7 +102,14 @@ Make a single car follow the traffic conditions (red and green)  in a specific p
 Make multiple cars follow the traffic conditions (red, yellow and green) in a specific path.
 * Step 1: generate multiple cars
 * Step 2: Make sure they stop with a safe distance between them.
-* Step 3: 
+* Step 3: Make sure no two cars collide with each other in their individual path. This is mostly taken care of by the signals. 
+
+#### Possible Improvements:
+* Make all paths that are possible 4C2
+* Make the cars not touch the lane by adjusting the points chosen in the path.
+* Make the speeds and traffic signals more realistic
+* Put the vehicle spawns in a loop. 
+
 
 ## Task 5 - “I gave so many signs …”
 Goal of the task is to make a model which can accurately detect traffic signs. Here is a summary of the used models and datasets.
@@ -127,6 +134,8 @@ Model: Resnet152
 Dataset: https://www.kaggle.com/datasets/andrewmvd/road-sign-detection
 
 Accuracy on Train: 48.21% (on 5 epochs can be further increased if colab runtime wasnt exceeded)
+
+Other models which can be tried out are Yolo7 (which is expected to have the highest accuracy). The test data accuracy hasn't been calculated due to exhaustion of colab usage and lack of time. But the results were tested using one or two sample images, which did give satisfactory results for general images.
 
 
 
@@ -153,6 +162,8 @@ PB: embed multi-scale context into tokens
 
 Structure: 
 Image → PRM (Pyramid Reduction Module) → MHSA (Multi-Head Attention) → PCM (Parallel Convolutional Modules)
+
+![alt image](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.catalyzex.com%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fai2-s2-public.s3.amazonaws.com%252Ffigures%252F2017-08-08%252F67e0ee85435ef3841bf3e772b05f0fea5e505439%252F2-Figure1-1.png%26w%3D640%26q%3D75&tbnid=ix3OlpYVtedneM&vet=12ahUKEwj81tKi1ob-AhViS3wKHXc1DiUQMygRegQIARBp..i&imgrefurl=https%3A%2F%2Fwww.catalyzex.com%2Fsearch%3Fquery%3DSelf%26page%3D398&docid=MG715WxRdcXdHM&w=640&h=254&itg=1&q=pyramid%20transformer%20for%20traffic%20sign&ved=2ahUKEwj81tKi1ob-AhViS3wKHXc1DiUQMygRegQIARBp)
 
 NB: inject convolutional bias, divided into two parallel branches, which together model locality and long-range dependency, 
 * Input:  class token from the third PB is concatenated with F from the third PB and then combined with positional embeddings 
@@ -194,7 +205,9 @@ Calculate the acceleration (v2 - v1/t)
 (assumption is that between two frames the direction won't change much so the above is carried out)
 Calculate the slope ( y2 - y1 / x2 - x1)
 
-* KalmanFilter: used to predict the next path of an moving objecthttps://arxiv.org/ftp/arxiv/papers/1204/1204.0375.pdf#:~:text=A%20Kalman%20Filtering%20is%20carried,in%20wireless%20networks%20is%20given.
+* KalmanFilter: used to predict the next path of a moving object 
+
+htps://arxiv.org/ftp/arxiv/papers/1204/1204.0375.pdf#:~:text=A%20Kalman%20Filtering%20is%20carried,in%20wireless%20networks%20is%20given.
 
 
 
