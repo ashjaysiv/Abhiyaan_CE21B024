@@ -1,2 +1,2 @@
 # Abhiyaan_CE21B024
-![alt text](traffic light iamge.jpg)
+![alt text](https://github.com/ashjaysiv/Abhiyaan_CE21B024.git)
