@@ -1,3 +1,6 @@
 [submodule "Applications_2023"]
 	path = Applications_2023
 	url = https://github.com/Team-Abhiyaan/Applications_2023.git
+[submodule "applications_2023"]
+	path = applications_2023
+	url = https://github.com/Team-Abhiyaan/applications_2023.git
