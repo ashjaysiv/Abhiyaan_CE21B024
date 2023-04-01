@@ -195,6 +195,8 @@ https://www.researchgate.net/publication/342987130_Difficulties_of_Traffic_Sign_
 
 ## Task 6 - "Hey! I'm walking here!"
 
+https://colab.research.google.com/drive/1ftpSEIciZREoTeLO8_lrC3EsOPK-rEqj
+
 
 Special Note: Task 6 has a log file containing the position, velocity and acceleration of the moving object.
 
