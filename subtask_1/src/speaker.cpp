@@ -23,6 +23,7 @@ int main (int argc, char **argv)
 		ss<<"NO.1 CFI TEAM";
 		msg.data = ss.str();
 		
+		# msg.data = "NO.1 CFI TEAM" + "ABHIYAAN";
 		// publish "NO.1 CFI TEAM to topic 
 		ROS_INFO("%s", msg.data.c_str());
 		chatter_pub.publish(msg);
